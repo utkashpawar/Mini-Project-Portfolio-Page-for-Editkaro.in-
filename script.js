@@ -13,7 +13,7 @@ const PROJECTS = [
   { id:1,  cat:'short-form',    tag:'Short-Form',    title:'Reel Hook — 0.8s Cut',     meta:'Instagram Reels · 0:24',
     thumb:'reel-hook.jpg', desc:'Fast-paced vertical edit built for a sub-1-second scroll-stopping hook, cut to trending audio.', embedSrc:null },
   { id:2,  cat:'short-form',    tag:'Short-Form',    title:'Behind the Counter',        meta:'TikTok · 0:31',
-    thumb:'reel-hook.jpg', desc:'Day-in-the-life style short-form edit for a D2C food brand, captioned and platform-native.', embedSrc:null },
+    thumb:'legend wallpaper.jpg', desc:'Day-in-the-life style short-form edit for a D2C food brand, captioned and platform-native.', embedSrc:null },
   { id:3,  cat:'long-form',     tag:'Long-Form',     title:'Founder Story — Ep. 03',    meta:'YouTube · 11:42',
     gradient:'linear-gradient(160deg,#2dd4bf,#0e5c53)', desc:'Long-form narrative edit with multi-cam sync, lower-thirds, and pacing built for retention graphs.', embedSrc:null },
   { id:4,  cat:'long-form',     tag:'Long-Form',     title:'Studio Tour, Unfiltered',   meta:'YouTube · 18:05',
