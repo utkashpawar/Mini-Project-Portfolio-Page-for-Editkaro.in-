@@ -112,12 +112,12 @@ function openLightbox(project){
   lbTitle.textContent = project.title;
   lbDesc.textContent = project.desc;
 
-  lbFrame.innerHTML = project.embedSrc
-    ? `<iframe src="${project.embedSrc}" style="width:100%;height:100%;border:0" allow="autoplay; fullscreen" allowfullscreen title="${project.title}"></iframe>`
-    : `<div style="width:100%;height:100%;background:${project.gradient};display:flex;align-items:center;justify-content:center;">
-         <div class="card__play" style="opacity:1;scale:1;position:static;">${PLAY_ICON}</div>
-       </div>`;
-
+ lbFrame.innerHTML = project.embedSrc
+  ? `<iframe src="${project.embedSrc}" style="width:100%;height:100%;border:0" allow="autoplay; fullscreen" allowfullscreen title="${project.title}"></iframe>`
+  : `<div style="width:100%;height:100%;background:${project.thumb ? `url('${project.thumb}') center/cover` : project.gradient};display:flex;align-items:center;justify-content:center;">
+       <div class="card__play" style="opacity:1;scale:1;position:static;">${PLAY_ICON}</div>
+     </div>`;
+   
   lightbox.classList.add('is-open');
   lightbox.setAttribute('aria-hidden','false');
   document.body.style.overflow = 'hidden';
