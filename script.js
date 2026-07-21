@@ -11,7 +11,7 @@
 //           video URL / YouTube embed URL to make the lightbox playable
 const PROJECTS = [
   { id:1,  cat:'short-form',    tag:'Short-Form',    title:'Reel Hook — 0.8s Cut',     meta:'Instagram Reels · 0:24',
-    gradient:'linear-gradient(160deg,#ff5a36,#7a1f10)', desc:'Fast-paced vertical edit built for a sub-1-second scroll-stopping hook, cut to trending audio.', embedSrc:null },
+    thumb:'reel-hook.jpg', desc:'Fast-paced vertical edit built for a sub-1-second scroll-stopping hook, cut to trending audio.', embedSrc:null },
   { id:2,  cat:'short-form',    tag:'Short-Form',    title:'Behind the Counter',        meta:'TikTok · 0:31',
     gradient:'linear-gradient(160deg,#ff8a36,#8a3a10)', desc:'Day-in-the-life style short-form edit for a D2C food brand, captioned and platform-native.', embedSrc:null },
   { id:3,  cat:'long-form',     tag:'Long-Form',     title:'Founder Story — Ep. 03',    meta:'YouTube · 11:42',
