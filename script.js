@@ -66,7 +66,7 @@ function renderCards(){
     <article class="card" data-cat="${p.cat}" data-id="${p.id}" tabindex="0" role="button"
       aria-label="Open preview: ${p.title}">
       <div class="card__thumb">
-        <div class="card__thumb-bg" style="background:${p.gradient}"></div>
+       <div class="card__thumb-bg" style="background:${p.thumb ? `url('${p.thumb}') center/cover` : p.gradient}"></div>
         <span class="card__timecode mono">${timecodeFor(p.id)}</span>
         <span class="card__tag">${p.tag}</span>
         <div class="card__play">${PLAY_ICON}</div>
