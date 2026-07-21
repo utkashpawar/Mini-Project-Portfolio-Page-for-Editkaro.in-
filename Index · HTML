@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Editkaro.in — Video Editing & Social Media Portfolio</title>
+<meta name="description" content="Editkaro.in — social media marketing and video editing agency. Short-form, long-form, gaming, football edits, eCommerce ads, documentary, color grading, anime and ad work.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ================= NAV ================= -->
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a href="#top" class="nav__logo">EDITKARO<span class="dot">.in</span></a>
+
+    <nav class="nav__links" id="navLinks">
+      <a href="#work">Work</a>
+      <a href="#categories">Categories</a>
+      <a href="#about">About</a>
+      <a href="#contact" class="nav__cta">Start a project</a>
+    </nav>
+
+    <button class="nav__burger" id="navBurger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="top">
+  <div class="hero__grain" aria-hidden="true"></div>
+  <div class="hero__inner">
+    <p class="hero__eyebrow mono">REEL STATUS <span class="rec">● REC</span> <span id="heroTimecode">00:00:00:00</span></p>
+    <h1 class="hero__title">We cut stories<br> that <span class="hero__title--accent">stop the scroll.</span></h1>
+    <p class="hero__sub">Editkaro.in is a social media marketing &amp; video editing studio. Nine formats, one obsession — footage that performs.</p>
+    <div class="hero__actions">
+      <a href="#work" class="btn btn--primary">See the work</a>
+      <a href="#contact" class="btn btn--ghost">Get in touch</a>
+    </div>
+  </div>
+
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span>SHORT-FORM</span><span>LONG-FORM</span><span>GAMING</span><span>FOOTBALL EDITS</span><span>ECOMMERCE ADS</span><span>DOCUMENTARY</span><span>COLOR GRADING</span><span>ANIME</span><span>ADS</span>
+      <span>SHORT-FORM</span><span>LONG-FORM</span><span>GAMING</span><span>FOOTBALL EDITS</span><span>ECOMMERCE ADS</span><span>DOCUMENTARY</span><span>COLOR GRADING</span><span>ANIME</span><span>ADS</span>
+    </div>
+  </div>
+</section>
+
+<!-- ================= TIMELINE FILTER ================= -->
+<section class="timeline" id="categories">
+  <p class="timeline__label mono">FILTER CLIPS BY CATEGORY</p>
+  <div class="timeline__track" id="filterTrack">
+    <button class="timeline__playhead" id="playhead" aria-hidden="true"></button>
+    <button class="chip is-active" data-filter="all">All Work</button>
+    <button class="chip" data-filter="short-form">Short-Form</button>
+    <button class="chip" data-filter="long-form">Long-Form</button>
+    <button class="chip" data-filter="gaming">Gaming</button>
+    <button class="chip" data-filter="football">Football Edits</button>
+    <button class="chip" data-filter="ecommerce">eCommerce Ads</button>
+    <button class="chip" data-filter="documentary">Documentary</button>
+    <button class="chip" data-filter="color-grading">Color Grading</button>
+    <button class="chip" data-filter="anime">Anime</button>
+    <button class="chip" data-filter="ads">Ads</button>
+  </div>
+</section>
+
+<!-- ================= WORK GRID ================= -->
+<main class="work" id="work">
+  <div class="work__grid" id="workGrid">
+    <!-- Cards injected by script.js -->
+  </div>
+  <p class="work__empty" id="workEmpty" hidden>No clips in this bin yet — check back soon.</p>
+</main>
+
+<!-- ================= ABOUT / STATS ================= -->
+<section class="about" id="about">
+  <div class="about__copy">
+    <h2>Built in the timeline, not the pitch deck.</h2>
+    <p>Every project starts with the footage, not a template. We cut for retention first: the hook in the first second, pacing that matches the platform, and grading that makes brands feel expensive.</p>
+  </div>
+  <div class="about__stats mono">
+    <div><span>09</span><small>Formats mastered</small></div>
+    <div><span>48H</span><small>Avg. turnaround</small></div>
+    <div><span>∞</span><small>Reshoots asked for</small></div>
+  </div>
+</section>
+
+<!-- ================= CONTACT / FOOTER ================= -->
+<footer class="footer" id="contact">
+  <div class="footer__inner">
+    <div>
+      <p class="footer__eyebrow mono">CUT. TO.</p>
+      <h2 class="footer__title">Let's make your<br>next post the one.</h2>
+      <a href="mailto:hello@editkaro.in" class="btn btn--primary">hello@editkaro.in</a>
+    </div>
+    <div class="footer__meta">
+      <p class="mono">SOCIAL</p>
+      <div class="footer__links">
+        <a href="#" target="_blank" rel="noopener">Instagram</a>
+        <a href="#" target="_blank" rel="noopener">YouTube</a>
+        <a href="#" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </div>
+  <p class="footer__legal mono">© <span id="year"></span> EDITKARO.IN — All footage property of respective clients.</p>
+</footer>
+
+<!-- ================= LIGHTBOX ================= -->
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <div class="lightbox__backdrop" data-close></div>
+  <div class="lightbox__panel" role="dialog" aria-modal="true" aria-labelledby="lightboxTitle">
+    <button class="lightbox__close" data-close aria-label="Close preview">✕</button>
+    <div class="lightbox__frame" id="lightboxFrame"></div>
+    <div class="lightbox__info">
+      <p class="mono lightbox__tag" id="lightboxTag">CATEGORY</p>
+      <h3 id="lightboxTitle">Title</h3>
+      <p id="lightboxDesc" class="lightbox__desc"></p>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
