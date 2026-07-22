@@ -15,7 +15,7 @@ const PROJECTS = [
   { id:2,  cat:'short-form',    tag:'Short-Form',    title:'Behind the Counter',        meta:'TikTok · 0:31',
     thumb:'Gemini_Generated_Image_awypu0awypu0awyp.png', desc:'Day-in-the-life style short-form edit for a D2C food brand, captioned and platform-native.', embedSrc: 'https://www.youtube.com/embed/MoVlt-ptxIk' },
   { id:3,  cat:'long-form',     tag:'Long-Form',     title:'Founder Story — Ep. 03',    meta:'YouTube · 11:42',
-    gradient:'linear-gradient(160deg,#2dd4bf,#0e5c53)', desc:'Long-form narrative edit with multi-cam sync, lower-thirds, and pacing built for retention graphs.', embedSrc:'https://youtube.com/embed/ZK-rNEhJIDs' },
+   thumb:'Gemini_Generated_Image_s50mivs50mivs50m.png', desc:'Long-form narrative edit with multi-cam sync, lower-thirds, and pacing built for retention graphs.', embedSrc:'https://youtube.com/embed/ZK-rNEhJIDs' },
   { id:4,  cat:'long-form',     tag:'Long-Form',     title:'Studio Tour, Unfiltered',   meta:'YouTube · 18:05',
     thumb:'reel-hook.jpg', desc:'Vlog-style long-form cut with A/B roll layering and a custom lower-third system.', embedSrc:'https://youtube.com/embed/mywcXtnVMY4' },
   { id:5,  cat:'gaming',        tag:'Gaming',        title:'Clutch Round Montage',      meta:'YouTube Shorts · 0:45',
