@@ -35,17 +35,17 @@ const PROJECTS = [
   { id:12, cat:'documentary',   tag:'Documentary',   title:'Voices of the Market',     meta:'Short Doc · 9:12',
    thumb:'Gemini_Generated_Image_czuh8sczuh8sczuh.png', desc:'Interview-driven documentary cut balancing talking heads with observational B-roll.', embedSrc:'https://youtube.com/embed/GDv8Iei3h4Y' },
   { id:13, cat:'color-grading', tag:'Color Grading', title:'Golden Hour Grade',        meta:'Grading Demo · 1:04',
-    thumb:'Gemini_Generated_Image_hbv3kwhbv3kwhbv3.png', desc:'Split-tone grade pushing warm highlights against teal shadows for a cinematic look.', embedSrc:null },
+    thumb:'Gemini_Generated_Image_hbv3kwhbv3kwhbv3.png', desc:'Split-tone grade pushing warm highlights against teal shadows for a cinematic look.', embedSrc:'https://youtube.com/embed/kN0zyYzl-Ec' },
   { id:14, cat:'color-grading', tag:'Color Grading', title:'Night Neon Grade',         meta:'Grading Demo · 0:48',
-    thumb:'Gemini_Generated_Image_15oify15oify15oi.png', desc:'Moody neon grade built for a nightlife brand, matched across mixed lighting sources.', embedSrc:null },
+    thumb:'Gemini_Generated_Image_15oify15oify15oi.png', desc:'Moody neon grade built for a nightlife brand, matched across mixed lighting sources.', embedSrc:'https://youtube.com/embed/LtJEnDkBJwo' },
   { id:15, cat:'anime',         tag:'Anime',         title:'AMV — Fall Arc',            meta:'YouTube · 3:20',
-    thumb:'Gemini_Generated_Image_b03cp2b03cp2b03c.png', desc:'Beat-synced anime music video with motion-tracked effects and impact-frame timing.', embedSrc:null },
+    thumb:'Gemini_Generated_Image_b03cp2b03cp2b03c.png', desc:'Beat-synced anime music video with motion-tracked effects and impact-frame timing.', embedSrc:'https://youtube.com/embed/2AjOKS3Qvb8' },
   { id:16, cat:'anime',         tag:'Anime',         title:'Character Reveal Edit',     meta:'TikTok · 0:19',
-    thumb:'Gemini_Generated_Image_urwfj2urwfj2urwf.png', desc:'Reveal-style edit built around a single beat drop, formatted for fan-community reposting.', embedSrc:null },
+    thumb:'Gemini_Generated_Image_urwfj2urwfj2urwf.png', desc:'Reveal-style edit built around a single beat drop, formatted for fan-community reposting.', embedSrc:'https://youtube.com/embed/gWX9zCa9brc'},
   { id:17, cat:'ads',           tag:'Ads',            title:'App Launch Spot',          meta:'YouTube Ads · 0:30',
-    thumb:'Gemini_Generated_Image_72ml5172ml5172ml.png', desc:'Broadcast-style app launch spot with kinetic typography and a scored soundbed.', embedSrc:null },
+    thumb:'Gemini_Generated_Image_72ml5172ml5172ml.png', desc:'Broadcast-style app launch spot with kinetic typography and a scored soundbed.', embedSrc:'https://youtube.com/embed/PJxoR2l-r-U'},
   { id:18, cat:'ads',           tag:'Ads',            title:'Brand Anthem',             meta:'YouTube Ads · 1:00',
-    thumb:'Gemini_Generated_Image_bzem6obzem6obzem.png', desc:'Emotive brand anthem cut mixing scripted VO with real customer footage.', embedSrc:null },
+    thumb:'Gemini_Generated_Image_bzem6obzem6obzem.png', desc:'Emotive brand anthem cut mixing scripted VO with real customer footage.', embedSrc:'https://youtube.com/embed/xU_phEiclT4' },
 ];
 
 // ---- 2. ICONS ----------------------------------------------------------
