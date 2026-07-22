@@ -13,7 +13,7 @@ const PROJECTS = [
   { id:1,  cat:'short-form',    tag:'Short-Form',    title:'Reel Hook — 0.8s Cut',     meta:'Instagram Reels · 0:24',
     thumb:'https://share.gemini.google/F6mqgYxyle5F', desc:'Fast-paced vertical edit built for a sub-1-second scroll-stopping hook, cut to trending audio.', embedSrc:'https://youtube.com/embed/QD8zK_3MWmo'},
   { id:2,  cat:'short-form',    tag:'Short-Form',    title:'Behind the Counter',        meta:'TikTok · 0:31',
-    thumb:'legend-wallpaper.jpg', desc:'Day-in-the-life style short-form edit for a D2C food brand, captioned and platform-native.', embedSrc: 'https://www.youtube.com/embed/7uXZG0pTxME' },
+    thumb:'legend-wallpaper.jpg', desc:'Day-in-the-life style short-form edit for a D2C food brand, captioned and platform-native.', embedSrc: 'https://www.youtube.com/embed/MoVlt-ptxIk' },
   { id:3,  cat:'long-form',     tag:'Long-Form',     title:'Founder Story — Ep. 03',    meta:'YouTube · 11:42',
     gradient:'linear-gradient(160deg,#2dd4bf,#0e5c53)', desc:'Long-form narrative edit with multi-cam sync, lower-thirds, and pacing built for retention graphs.', embedSrc:'https://youtube.com/embed/najuRb_W1q0' },
   { id:4,  cat:'long-form',     tag:'Long-Form',     title:'Studio Tour, Unfiltered',   meta:'YouTube · 18:05',
